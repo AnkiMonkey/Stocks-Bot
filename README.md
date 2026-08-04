@@ -10,7 +10,6 @@
   <img src="stocks_bot.png" width="400">
 </p>
 
-
 <!-- TABLE OF CONTENTS -->
 
 <details>
@@ -37,34 +36,34 @@ The final result is sent as a short email alert.
 
 ```text
 ┌─────────┐
-│ A LOAD  │
+│   LOAD  │
 └────┬────┘
      │ S&P 500 stock list
      ▼
 ┌─────────┐
-│ D DETECT│
+│ DETECT  │
 └────┬────┘
      │ Sharp price drops
      ▼
 ┌─────────┐
-│ S SCREEN│
+│ SCREEN  │
 └────┬────┘
      │ Fundamentals + news
      ▼
 ┌───────────┐
-│ C CLASSIFY│
+│ CLASSIFY  │
 └─────┬─────┘
       │ Ollama
-      │ BUY THE DIP / CONSIDER / AVOID
+      │ BUY / CONSIDER / AVOID
       ▼
 ┌─────────┐
-│ I FORMAT │
+│  FORMAT │
 └────┬────┘
      │ Short alert
      ▼
 ┌─────────┐
-│ I INFORM│
-└─────────┘
+│  INFORM │
+└────┬────┘
      │
      ▼
    EMAIL
@@ -76,7 +75,7 @@ The final result is sent as a short email alert.
 * Detects stocks with sharp declines.
 * Collects fundamentals and recent news.
 * Sends the data to Ollama for analysis.
-* Produces a `BUY THE DIP`, `CONSIDER`, or `AVOID` verdict.
+* Produces a `BUY`, `CONSIDER`, or `AVOID` verdict.
 * Sends the result by email.
 
 <p align="left">(<a href="#readme-top">back to top</a>)</p>
@@ -135,7 +134,7 @@ The bot will:
 
 ## Workflow
 
-The application follows the **ADSC II** pipeline:
+The application follows the **ASCII II** pipeline:
 
 ```text
 A → D → S → C → I → I
