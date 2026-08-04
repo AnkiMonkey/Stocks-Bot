@@ -6,6 +6,11 @@
   S&P 500 dip screening and AI email alerts using Ollama.
 </p>
 
+<p align="center">
+  <img src="stocks_bot.png" width="400">
+</p>
+
+
 <!-- TABLE OF CONTENTS -->
 
 <details>
