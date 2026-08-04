@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="stocks_bot.png" width="400">
+  <img src="stocks_bot.png" width="700">
 </p>
 
 <!-- TABLE OF CONTENTS -->
