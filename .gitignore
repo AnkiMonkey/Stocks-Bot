@@ -1,0 +1,4 @@
+config.py
+alerts_log.csv
+__pycache__/
+*.pyc
