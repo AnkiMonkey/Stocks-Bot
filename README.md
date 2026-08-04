@@ -134,11 +134,9 @@ The bot will:
 
 ## Workflow
 
-The application follows the **ASCII II** pipeline:
+The application follows the  pipeline:
 
 ```text
-A → D → S → C → I → I
-
 Load → Detect → Screen → Classify → Format → Inform
 ```
 
